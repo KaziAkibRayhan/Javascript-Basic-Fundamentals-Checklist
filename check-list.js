@@ -1,8 +1,3 @@
-// Number 1 Check List Variable Decleare
-
-const myName = 'AKib Rayhan';
-const isMonday = true;
-let yourAge = 22;
 
 // Number 2 Check List  let , const use
 
@@ -48,16 +43,27 @@ const js = false;
 const reactJs = false;
 
  if (webDevloper && js) {
-    console.log("you are devloper");
+   //  console.log("you are devloper");
  }
 
  else if (reactJs || js) {
-    console.log('you are fronted developer');
+   //  console.log('you are fronted developer');
  }
 
  else{
-    console.log('you are not developer');
+   //  console.log('you are not developer');
  }
+
+ // Number 6 Check List using if else program Odd even
+ 
+ let age = 23;
+
+ if (age % 2 == 0) {
+   console.log('This is even number');
+ }
+else{
+   console.log('This is odd number');
+}
 
 
 
